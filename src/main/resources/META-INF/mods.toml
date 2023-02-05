@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion="[40,)"
+license="MIT"
+issueTrackerURL="https://github.com/LanGvest/Plantopia/issues"
+
+[[mods]]
+	modId = "plantopia"
+	version = "${file.jarVersion}"
+	displayName = "Plantopia"
+	credits = "FeelinnGlad"
+	authors = "LanGvest, Ostium"
+	description = "Minecraft biomes mod."
+
+[[dependencies.plantopia]]
+	modId = "forge"
+	versionRange = "[40,)"
+	mandatory = true
+	ordering = "NONE"
+	side = "BOTH"
+
+[[dependencies.plantopia]]
+	modId = "minecraft"
+	versionRange = "[1.18.2,1.19)"
+	mandatory = true
+	ordering = "NONE"
+	side = "BOTH"
